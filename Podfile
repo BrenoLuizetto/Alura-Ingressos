@@ -9,7 +9,7 @@ target 'Alura Ingressos' do
 
   pod 'CPF-CNPJ-Validator', '~> 1.0'
   pod  'Alamofire' ,  '~> 4.7.0'
-  
+  pod 'CreditCardValidator', '~> 0.4'
 
   
 end
