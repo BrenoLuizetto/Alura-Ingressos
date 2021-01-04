@@ -10,22 +10,23 @@ import UIKit
 import CPF_CNPJ_Validator
 
 
+enum TiposDeTextField: Int {
+    case nomeCompleto = 1
+    case email = 2
+    case cpf = 3
+    case endereco = 4
+    case bairro = 5
+    case numeroDoCartapo = 6
+    case mesDeVencimento = 7
+    case anoDeVencimento = 8
+    case codigoDeSegurança = 9
+    case  parcela = 10
+    case cep = 11
+}
+
+
 class ValidaFormulario: NSObject {
     
-    enum TiposDeTextField: Int {
-        case nomeCompleto = 1
-        case email = 2
-        case cpf = 3
-        case endereco = 4
-        case bairro = 5
-        case numeroDoCartapo = 6
-        case mesDeVencimento = 7
-        case anoDeVencimento = 8
-        case codigoDeSegurança = 9
-        case  parcela = 10
-        case cep = 11
-    }
-
     
     func verificaTextFieldsPreenchidos(textFields: Array <UITextField>) -> Bool {
         for textField in textFields {

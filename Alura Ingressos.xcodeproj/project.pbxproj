@@ -14,6 +14,8 @@
 		F19E3E6125A382C400E247B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19E3E6025A382C400E247B6 /* Assets.xcassets */; };
 		F19E3E6425A382C400E247B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19E3E6225A382C400E247B6 /* LaunchScreen.storyboard */; };
 		F19E3E6E25A38D8F00E247B6 /* ValidaFormulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E3E6D25A38D8F00E247B6 /* ValidaFormulario.swift */; };
+		F1BB014F25A3A3A900600D87 /* Localizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BB014E25A3A3A900600D87 /* Localizacao.swift */; };
+		F1BB015125A3A42D00600D87 /* LocalizacaoConsultaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BB015025A3A42D00600D87 /* LocalizacaoConsultaAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		F19E3E6325A382C400E247B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F19E3E6525A382C400E247B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F19E3E6D25A38D8F00E247B6 /* ValidaFormulario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidaFormulario.swift; sourceTree = "<group>"; };
+		F1BB014E25A3A3A900600D87 /* Localizacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizacao.swift; sourceTree = "<group>"; };
+		F1BB015025A3A42D00600D87 /* LocalizacaoConsultaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizacaoConsultaAPI.swift; sourceTree = "<group>"; };
 		F6727B6AC7B779364758940D /* Pods_Alura_Ingressos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alura_Ingressos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				F19E3E6D25A38D8F00E247B6 /* ValidaFormulario.swift */,
+				F1BB014E25A3A3A900600D87 /* Localizacao.swift */,
+				F1BB015025A3A42D00600D87 /* LocalizacaoConsultaAPI.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,10 +189,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Alura Ingressos/Pods-Alura Ingressos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CPF-CNPJ-Validator/CPF_CNPJ_Validator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CPF_CNPJ_Validator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +229,9 @@
 			files = (
 				F19E3E5C25A382C100E247B6 /* ViewController.swift in Sources */,
 				F19E3E6E25A38D8F00E247B6 /* ValidaFormulario.swift in Sources */,
+				F1BB014F25A3A3A900600D87 /* Localizacao.swift in Sources */,
 				F19E3E5A25A382C100E247B6 /* AppDelegate.swift in Sources */,
+				F1BB015125A3A42D00600D87 /* LocalizacaoConsultaAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

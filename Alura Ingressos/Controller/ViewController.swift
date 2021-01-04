@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
     
     
     //MARK: -Outlets
@@ -26,6 +26,16 @@ class ViewController: UIViewController {
 
         
     }
+    
+    func buscaTextField(tipoDeTextField:TiposDeTextField, completion:(_ textFieldSolicitado:UITextField) -> Void) {
+        for textField in textFields {
+            if let textFieldAtual = TiposDeTextField(rawValue: textField.tag) {
+                if textFieldAtual == tipoDeTextField {
+                    completion(textField)
+                }
+            }
+        }
+    }
 
     @IBAction func botaoComprar(_ sender: UIButton) {
         let textFieldsEstaoPreenchidos = ValidaFormulario().verificaTextFieldsPreenchidos(textFields: textFields)
@@ -40,5 +50,22 @@ class ViewController: UIViewController {
         }
     }
     
-}
-
+    @IBAction func textFieldCepAlterouValor(_ sender: UITextField) {
+        guard let cep = sender.text else {return}
+        LocalizacaoConsultaAPI().consultaViaCepAPI(cep: cep, sucesso: { (localizacao) in
+            self.buscaTextField(tipoDeTextField: .endereco, completion: { (textFieldEndereco) in
+                textFieldEndereco.text = localizacao.logradouro
+            })
+            
+            self.buscaTextField(tipoDeTextField: .bairro, completion: { (textFieldBairro) in
+                textFieldBairro.text = localizacao.bairro
+                
+            })
+            
+        }) { (error) in
+            print(error)
+        }
+       
+        }
+        
+    }
