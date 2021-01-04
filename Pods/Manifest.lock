@@ -1,0 +1,16 @@
+PODS:
+  - CPF-CNPJ-Validator (1.0.2)
+
+DEPENDENCIES:
+  - CPF-CNPJ-Validator (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CPF-CNPJ-Validator
+
+SPEC CHECKSUMS:
+  CPF-CNPJ-Validator: 0b08069595da2c4b20e964b743bfc0a7334d5347
+
+PODFILE CHECKSUM: 9f2366ec0e6e497c5abb899c9a5175c9f2c524f7
+
+COCOAPODS: 1.5.2

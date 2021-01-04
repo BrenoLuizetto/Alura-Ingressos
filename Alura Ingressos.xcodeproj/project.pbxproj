@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77DE48BCA8C88CD4B8498DA6 /* Pods_Alura_Ingressos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6727B6AC7B779364758940D /* Pods_Alura_Ingressos.framework */; };
+		F19E3E5A25A382C100E247B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E3E5925A382C100E247B6 /* AppDelegate.swift */; };
+		F19E3E5C25A382C100E247B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E3E5B25A382C100E247B6 /* ViewController.swift */; };
+		F19E3E5F25A382C100E247B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19E3E5D25A382C100E247B6 /* Main.storyboard */; };
+		F19E3E6125A382C400E247B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19E3E6025A382C400E247B6 /* Assets.xcassets */; };
+		F19E3E6425A382C400E247B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19E3E6225A382C400E247B6 /* LaunchScreen.storyboard */; };
+		F19E3E6E25A38D8F00E247B6 /* ValidaFormulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E3E6D25A38D8F00E247B6 /* ValidaFormulario.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		035D600DB750CB77903409B5 /* Pods-Alura Ingressos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alura Ingressos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alura Ingressos/Pods-Alura Ingressos.debug.xcconfig"; sourceTree = "<group>"; };
+		555AB22834540C92214ED0CC /* Pods-Alura Ingressos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alura Ingressos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alura Ingressos/Pods-Alura Ingressos.release.xcconfig"; sourceTree = "<group>"; };
+		F19E3E5625A382C100E247B6 /* Alura Ingressos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alura Ingressos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19E3E5925A382C100E247B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F19E3E5B25A382C100E247B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F19E3E5E25A382C100E247B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F19E3E6025A382C400E247B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F19E3E6325A382C400E247B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F19E3E6525A382C400E247B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19E3E6D25A38D8F00E247B6 /* ValidaFormulario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidaFormulario.swift; sourceTree = "<group>"; };
+		F6727B6AC7B779364758940D /* Pods_Alura_Ingressos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alura_Ingressos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F19E3E5325A382C100E247B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DE48BCA8C88CD4B8498DA6 /* Pods_Alura_Ingressos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BC8DF6AA9BEEA9B238B499D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6727B6AC7B779364758940D /* Pods_Alura_Ingressos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D8D59647FC9FB54E44F1CD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				035D600DB750CB77903409B5 /* Pods-Alura Ingressos.debug.xcconfig */,
+				555AB22834540C92214ED0CC /* Pods-Alura Ingressos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F19E3E4D25A382C100E247B6 = {
+			isa = PBXGroup;
+			children = (
+				F19E3E5825A382C100E247B6 /* Alura Ingressos */,
+				F19E3E5725A382C100E247B6 /* Products */,
+				7D8D59647FC9FB54E44F1CD7 /* Pods */,
+				3BC8DF6AA9BEEA9B238B499D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F19E3E5725A382C100E247B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F19E3E5625A382C100E247B6 /* Alura Ingressos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F19E3E5825A382C100E247B6 /* Alura Ingressos */ = {
+			isa = PBXGroup;
+			children = (
+				F19E3E6C25A38D7300E247B6 /* Controller */,
+				F19E3E6B25A38D6B00E247B6 /* Model */,
+				F19E3E5925A382C100E247B6 /* AppDelegate.swift */,
+				F19E3E5D25A382C100E247B6 /* Main.storyboard */,
+				F19E3E6025A382C400E247B6 /* Assets.xcassets */,
+				F19E3E6225A382C400E247B6 /* LaunchScreen.storyboard */,
+				F19E3E6525A382C400E247B6 /* Info.plist */,
+			);
+			path = "Alura Ingressos";
+			sourceTree = "<group>";
+		};
+		F19E3E6B25A38D6B00E247B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F19E3E6D25A38D8F00E247B6 /* ValidaFormulario.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F19E3E6C25A38D7300E247B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F19E3E5B25A382C100E247B6 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F19E3E5525A382C100E247B6 /* Alura Ingressos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19E3E6825A382C400E247B6 /* Build configuration list for PBXNativeTarget "Alura Ingressos" */;
+			buildPhases = (
+				3D12AC3706CC415C01ABE137 /* [CP] Check Pods Manifest.lock */,
+				F19E3E5225A382C100E247B6 /* Sources */,
+				F19E3E5325A382C100E247B6 /* Frameworks */,
+				F19E3E5425A382C100E247B6 /* Resources */,
+				07DA834FECA62004025DDB09 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alura Ingressos";
+			productName = "Alura Ingressos";
+			productReference = F19E3E5625A382C100E247B6 /* Alura Ingressos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F19E3E4E25A382C100E247B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Alura;
+				TargetAttributes = {
+					F19E3E5525A382C100E247B6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F19E3E5125A382C100E247B6 /* Build configuration list for PBXProject "Alura Ingressos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F19E3E4D25A382C100E247B6;
+			productRefGroup = F19E3E5725A382C100E247B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F19E3E5525A382C100E247B6 /* Alura Ingressos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F19E3E5425A382C100E247B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19E3E6425A382C400E247B6 /* LaunchScreen.storyboard in Resources */,
+				F19E3E6125A382C400E247B6 /* Assets.xcassets in Resources */,
+				F19E3E5F25A382C100E247B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07DA834FECA62004025DDB09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Alura Ingressos/Pods-Alura Ingressos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CPF-CNPJ-Validator/CPF_CNPJ_Validator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CPF_CNPJ_Validator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alura Ingressos/Pods-Alura Ingressos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D12AC3706CC415C01ABE137 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alura Ingressos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F19E3E5225A382C100E247B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19E3E5C25A382C100E247B6 /* ViewController.swift in Sources */,
+				F19E3E6E25A38D8F00E247B6 /* ValidaFormulario.swift in Sources */,
+				F19E3E5A25A382C100E247B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F19E3E5D25A382C100E247B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19E3E5E25A382C100E247B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F19E3E6225A382C400E247B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19E3E6325A382C400E247B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F19E3E6625A382C400E247B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F19E3E6725A382C400E247B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F19E3E6925A382C400E247B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035D600DB750CB77903409B5 /* Pods-Alura Ingressos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alura Ingressos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.alura.Alura-Ingressos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F19E3E6A25A382C400E247B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555AB22834540C92214ED0CC /* Pods-Alura Ingressos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alura Ingressos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.alura.Alura-Ingressos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F19E3E5125A382C100E247B6 /* Build configuration list for PBXProject "Alura Ingressos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19E3E6625A382C400E247B6 /* Debug */,
+				F19E3E6725A382C400E247B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19E3E6825A382C400E247B6 /* Build configuration list for PBXNativeTarget "Alura Ingressos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19E3E6925A382C400E247B6 /* Debug */,
+				F19E3E6A25A382C400E247B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F19E3E4E25A382C100E247B6 /* Project object */;
+}
