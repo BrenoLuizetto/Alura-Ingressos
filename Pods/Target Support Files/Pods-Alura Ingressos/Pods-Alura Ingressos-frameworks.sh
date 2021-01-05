@@ -146,11 +146,15 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CPF-CNPJ-Validator/CPF_CNPJ_Validator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CreditCardValidator/CreditCardValidator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Money/Money.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ValueCoding/ValueCoding.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CPF-CNPJ-Validator/CPF_CNPJ_Validator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CreditCardValidator/CreditCardValidator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Money/Money.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ValueCoding/ValueCoding.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Money
 
 
 class ViewController: UIViewController, PickerViewMesSelecionado, PickerViewAnoSelecionado, PickerViewNumeroDeParcela{
@@ -18,11 +19,14 @@ class ViewController: UIViewController, PickerViewMesSelecionado, PickerViewAnoS
     
     @IBOutlet weak var imagemBanner: UIImageView!
     @IBOutlet weak var scrollViewPrincipal: UIScrollView!
+    @IBOutlet weak var labelValorDasParcelas: UILabel!
     
     
     var pickerViewMes = PickerViewMes()
     var pickerViewAno = PickerViewAno()
     var pickerViewParcela = PickerViewParcela()
+    
+    var valorDoIngresso: BRL = 199.00
     
 
     override func viewDidLoad() {
@@ -73,6 +77,8 @@ class ViewController: UIViewController, PickerViewMesSelecionado, PickerViewAnoS
     func pickverViewParcelaSelecionada(parcela: String) {
         self.buscaTextField(tipoDeTextField: .parcela) { (textFieldParcela) in
             textFieldParcela.text = "\(parcela)x"
+            let calculoDaParcela = "\(valorDoIngresso/Int(parcela)!)"
+            self.labelValorDasParcelas.text = String(format: "%@x %@ (ou R$ 199,00 à vista)", parcela, calculoDaParcela)
         }
     }
 
