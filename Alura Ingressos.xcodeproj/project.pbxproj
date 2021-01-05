@@ -18,6 +18,7 @@
 		F1BB015125A3A42D00600D87 /* LocalizacaoConsultaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BB015025A3A42D00600D87 /* LocalizacaoConsultaAPI.swift */; };
 		F1F3DB0425A4915B00343F45 /* PickerViewMes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F3DB0325A4915B00343F45 /* PickerViewMes.swift */; };
 		F1F3DB0625A49F7500343F45 /* PickerViewAno.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F3DB0525A49F7500343F45 /* PickerViewAno.swift */; };
+		F1F3DB0825A4A47B00343F45 /* PickerViewParcela.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F3DB0725A4A47B00343F45 /* PickerViewParcela.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		F1BB015025A3A42D00600D87 /* LocalizacaoConsultaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizacaoConsultaAPI.swift; sourceTree = "<group>"; };
 		F1F3DB0325A4915B00343F45 /* PickerViewMes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewMes.swift; sourceTree = "<group>"; };
 		F1F3DB0525A49F7500343F45 /* PickerViewAno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewAno.swift; sourceTree = "<group>"; };
+		F1F3DB0725A4A47B00343F45 /* PickerViewParcela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewParcela.swift; sourceTree = "<group>"; };
 		F6727B6AC7B779364758940D /* Pods_Alura_Ingressos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alura_Ingressos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 			children = (
 				F1F3DB0325A4915B00343F45 /* PickerViewMes.swift */,
 				F1F3DB0525A49F7500343F45 /* PickerViewAno.swift */,
+				F1F3DB0725A4A47B00343F45 /* PickerViewParcela.swift */,
 			);
 			path = Componentes;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				F1F3DB0425A4915B00343F45 /* PickerViewMes.swift in Sources */,
 				F19E3E5C25A382C100E247B6 /* ViewController.swift in Sources */,
 				F19E3E6E25A38D8F00E247B6 /* ValidaFormulario.swift in Sources */,
+				F1F3DB0825A4A47B00343F45 /* PickerViewParcela.swift in Sources */,
 				F1BB014F25A3A3A900600D87 /* Localizacao.swift in Sources */,
 				F19E3E5A25A382C100E247B6 /* AppDelegate.swift in Sources */,
 				F1BB015125A3A42D00600D87 /* LocalizacaoConsultaAPI.swift in Sources */,

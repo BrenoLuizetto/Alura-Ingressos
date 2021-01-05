@@ -23,6 +23,7 @@ enum TiposDeTextField: Int {
     case codigoDeSegurança = 9
     case  parcela = 10
     case cep = 11
+    
 }
 
 
