@@ -199,51 +199,60 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="OPV-2r-7JO">
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OPV-2r-7JO">
                                                 <rect key="frame" x="0.0" y="757.5" width="343" height="50.5"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gNu-a4-GC9">
-                                                        <rect key="frame" x="0.0" y="0.0" width="171.5" height="50.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="169" height="50.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vencimento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ke-kT-cNb">
-                                                                <rect key="frame" x="0.0" y="0.0" width="171.5" height="20.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="169" height="20.5"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mCk-i7-wHj">
-                                                                <rect key="frame" x="0.0" y="20.5" width="171.5" height="30"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="mCk-i7-wHj">
+                                                                <rect key="frame" x="0.0" y="20.5" width="169" height="30"/>
                                                                 <subviews>
                                                                     <textField opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="MM" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ksG-76-6Ha">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="86" height="30"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="82" height="30"/>
                                                                         <nil key="textColor"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                         <textInputTraits key="textInputTraits"/>
+                                                                        <connections>
+                                                                            <action selector="textFieldMesEntrouEmFoco:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="cTI-fr-vKF"/>
+                                                                        </connections>
                                                                     </textField>
                                                                     <textField opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="AA" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TEI-lx-InR">
-                                                                        <rect key="frame" x="86" y="0.0" width="85.5" height="30"/>
+                                                                        <rect key="frame" x="87" y="0.0" width="82" height="30"/>
                                                                         <nil key="textColor"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                         <textInputTraits key="textInputTraits"/>
+                                                                        <connections>
+                                                                            <action selector="textFieldAnoEntrouEmFoco:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="scE-XL-sXN"/>
+                                                                        </connections>
                                                                     </textField>
                                                                 </subviews>
                                                             </stackView>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Jun-6f-3rc">
-                                                        <rect key="frame" x="171.5" y="0.0" width="171.5" height="50.5"/>
+                                                        <rect key="frame" x="174" y="0.0" width="169" height="50.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Código de segurança" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxh-se-yG7">
-                                                                <rect key="frame" x="0.0" y="0.0" width="171.5" height="20.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="169" height="20.5"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <textField opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="3 digitos" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ij6-Mt-vae">
-                                                                <rect key="frame" x="0.0" y="20.5" width="171.5" height="30"/>
+                                                                <rect key="frame" x="0.0" y="20.5" width="169" height="30"/>
                                                                 <nil key="textColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits"/>
+                                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                                <connections>
+                                                                    <action selector="textFieldCodigoDeSeguranca:" destination="BYZ-38-t0r" eventType="editingChanged" id="xv8-Xv-hBN"/>
+                                                                </connections>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
@@ -326,6 +335,7 @@
                     <size key="freeformSize" width="375" height="1200"/>
                     <connections>
                         <outlet property="imagemBanner" destination="8kd-Qc-uKk" id="FwU-GR-0kB"/>
+                        <outlet property="scrollViewPrincipal" destination="ZZw-3x-AXk" id="GAl-3S-jUY"/>
                         <outletCollection property="textFields" destination="jig-4o-vmN" collectionClass="NSMutableArray" id="IGg-KW-qz3"/>
                         <outletCollection property="textFields" destination="Rtv-PC-CcG" collectionClass="NSMutableArray" id="lSF-mg-gwR"/>
                         <outletCollection property="textFields" destination="GNe-Iw-U3Y" collectionClass="NSMutableArray" id="Aqc-Hs-jOc"/>
